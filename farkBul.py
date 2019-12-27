@@ -1,6 +1,5 @@
 
-#14253006 MERVE ARSLAN
-#15253016 EDA ÇELTÜK
+
 
 import cv2
 import imutils
@@ -8,7 +7,7 @@ from skimage.measure import compare_ssim
 
 resim_1 = cv2.imread("ogr1.jpg")
 resim_2 = cv2.imread("ogr2.jpg")
-resim3=cv2.imread("ogr1.jpg")
+
 resim_1_boyut = cv2.resize(resim_1, (300, 200))
 resim_2_boyut = cv2.resize(resim_2, (300, 200))
 
